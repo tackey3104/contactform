@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>お問い合わせフォームを創る</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>お問い合わせフォーム</h1>
+
+    <form method="post" action="mail_confirm.php">
+        <div>
+          <label>名前</label>
+          <br>
+           <input type="text" name="name" size="35px" class="nyuryoku">
+        </div>
+        
+        <div>
+         <label>メールアドレス</label>
+         <br>
+           <input type="text" name="mail" size="35px" class="nyuryoku">
+        </div>
+
+        <div>
+         <label>年齢</label>
+         <br>
+            <select name="age" class="sentaku">
+                <option>選択してください</option>
+                <script>
+                    for(var age=18; age<=65; age++){
+                        document.write("<option value="+age+">"+age+"歳</option>");
+                    }
+                </script>
+            </select>
+        </div>
+        
+        <div>
+         <label>コメント</label>
+         <br>
+            <textarea name="comments" cols="35" rows="7" class="nyuryoku"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="送信する" class="botan">
+        </div>
+
+    </form>
+    
+</body>
+</html>

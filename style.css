@@ -1,0 +1,38 @@
+h1{
+    font-size:25px;
+    background-color:#f1f1f1;
+    border-left:red solid 5px;
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:500px;
+}
+
+form{
+    border:#ebebeb solid 2px;
+    background-color:#fbfbfb;
+    width: 500px;
+    border-radius:10px;
+    padding-left:10px;
+}
+
+div{
+    padding:15px 5px;
+    margin: top 5px;
+    font-size:15px;
+}
+
+.nyuryoku,.sentaku{
+    font-size:15px;
+    
+}
+
+.botan{
+    font-size:20px;
+    color:white;
+    background-color:#bfbfbf;
+    border:lightgray solid 1px;
+    border-bottom:gray solid 2px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
